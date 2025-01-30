@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: white;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+nav p, nav a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+    border-top: 10px solid black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.splash h1 {
+    font-family: "Zilla Slab", serif;
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.splash img {
+    height: auto;
+    width: 200px;
+    border-radius: 15px;
+    border: 5px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.splash p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 10px auto;
+    font-family: "Zilla Slab", serif;
+}
+
+
+hr {
+    border: 1px solid black;
+    width: auto;
+    margin: 20px auto;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: "Zilla Slab", serif;
+    align-items: center;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.tagline {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-size: large;
+}
+
+.education {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+}
+
+.UGA strong {
+    font-family: "Zilla Slab", serif;
+    font-size: larger;
+    display: block;
+    text-align: center;
+}
+
+.UGA {
+    font-family: "Zilla Slab", serif;
+    text-align: center;
+}
+
+
+section h2 {
+    font-family: "Zilla Slab", serif;
+    text-align: center;
+    color: black;
+}
+
+
+.skills ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: large;
+}
+
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 20px;
+    font-size: 1em;
+    font-family: "Zilla Slab", cursive;
+}
+
+dl dt {
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+
+dl dd {
+    margin: 0;
+    color: #333;
+    font-style: italic;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.three-col h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.card img {
+    max-width: 250%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #6a0dad;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #ff5733;
+    box-shadow: 0px 0px 5px rgba(255, 87, 51, 0.5);
+}
+
+form button {
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #ff5733;
+}
+
+
+
